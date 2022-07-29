@@ -31,6 +31,6 @@ class User{
     cadastrar(){}
     editar(){}
     postar(){}
-   inserirAvatar(){}
+    inserirAvatar(){}
 }
 const usuario = new User("UserClamed", "clamed", "20/07/2022", "Clamedinho")
