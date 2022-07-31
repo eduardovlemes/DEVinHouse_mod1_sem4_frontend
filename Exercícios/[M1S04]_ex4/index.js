@@ -1,4 +1,4 @@
-let = ["nome", "nome"]
+let alunos = ["Arthur", "Silas", "Marlon", "Camila", "Gabriele", "Nicolas"]
 
 document.write(array)
 
