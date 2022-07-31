@@ -10,6 +10,7 @@ class Series {
   }
 }
 
+
 let maisAntiga;
 let nomeAntigo;
 
