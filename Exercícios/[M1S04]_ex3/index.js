@@ -3,26 +3,15 @@ class Pessoa {
   idade;
   cpf;
   anoDeAniversario;
-
-  constructor(nome, idade, cpf) {
-    this.nome = nome;
-    this.idade = idade;
-    this.cpf = cpf;
-    this.anoDeAniversario = anoDeAniversario;
-  }
-  podeDirigir() {}
+  
+  podeDirigir() {
+    idade >= 18 ? "true" : "false"
+  } 
 }
+const usuario = new Pessoa()
+usuario.nome = "clamed"
+usuario.idade = "102"
+usuario.cpf = "000.000.000-00"
+usuario.anoDeAniversario = "1920"
 
-function podeDirigir() {
-  let nome = document.getElementById("nome").value;
-  let idade = document.getElementById("idade").value;
-  let cpf = document.getElementById("cpf").value;
-  let anoDeAniversario = document.getElementById("anoDeAniversario").valeu;
-  if (idade >= 18) {
-    return true;
-  } else {
-    false;
-  }
-  const Pessoa = new Pessoa(nome, idade, cpf, anoDeAniversario);
-  document.write(Pessoa);
-}
+console.log(usuario)
