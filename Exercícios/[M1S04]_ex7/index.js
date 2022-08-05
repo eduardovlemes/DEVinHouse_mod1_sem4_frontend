@@ -10,7 +10,7 @@ let alunosReprovados = [];
 let alunosAprovados = [];
 let mediaParaAprovacao = 7;
 
-arrayAlunos.forEach(function (atributoDoArray) {
+arrayAlunos.forEach((atributoDoArray) => {
     if (atributoDoArray.media >= mediaParaAprovacao) {
         alunosAprovados.push(atributoDoArray)
     } else {
